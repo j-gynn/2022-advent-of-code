@@ -1,7 +1,7 @@
 ﻿using System;
 using Utils;
 
-namespace Day2
+namespace DayX
 {
     class Program
     {
