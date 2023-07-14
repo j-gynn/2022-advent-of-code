@@ -18,6 +18,8 @@ namespace Utils
                     continue;
                 }
 
+                input = input.Replace('\\', '/').Replace("\"","");
+
                 if (!File.Exists(input)) {
                     Console.WriteLine("File does not exist.");
                     continue;

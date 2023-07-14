@@ -13,7 +13,10 @@ namespace DayX
 
             using (StreamReader sr = new StreamReader(input))
             {
-                
+                string? line;
+                while ((line = sr.ReadLine()) != null) {
+                    
+                }
             }
         }
     }
